@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "setup": "cd www && composer install",
+    "dev": "touch src/.lock && vite",
+    "build": "rm -f src/.lock && vite build"
+  },
+  "devDependencies": {
+    "sass": "^1.43.3",
+    "vite": "^2.6.10",
+    "vite-plugin-live-reload": "^2.1.0",
+    "vite-plugin-windicss": "^1.4.12",
+    "windicss": "^3.1.9"
+  }
+}
